@@ -1,11 +1,10 @@
 {
-  "name": "zmarket/flarum-l10n-russian-core",
+  "name": "pkgstore/flarum-l10n-russian-core",
   "description": "Russian language pack for Flarum (UNOFFICIAL).",
   "type": "flarum-extension",
   "license": "MIT",
-  "homepage": "https://z17.dev/",
+  "homepage": "https://v77.dev/",
   "keywords": [
-    "z17",
     "flarum",
     "extension",
     "russian",
@@ -17,30 +16,30 @@
   ],
   "authors": [
     {
-      "name": "z17 Development",
-      "email": "mail@z17.dev",
-      "homepage": "https://z17.dev/",
+      "name": "v77 Development",
+      "email": "mail@v77.dev",
+      "homepage": "https://v77.dev/",
       "role": "Translator"
     },
     {
-      "name": "z17 CX",
-      "email": "mail@z17.cx",
-      "homepage": "https://z17.cx/",
+      "name": "Kitsune Solar",
+      "email": "mail@kitsune.solar",
+      "homepage": "https://kitsune.solar/",
       "role": "Translator"
     }
   ],
   "support": {
-    "source": "https://github.com/zbox/flarum-l10n-russian-core",
-    "issues": "https://github.com/zbox/flarum-l10n-russian-core/issues",
-    "docs": "https://github.com/zbox/flarum-l10n-russian-core/wiki",
-    "forum": "https://github.com/zbox/flarum-l10n-russian-core/discussions"
+    "source": "https://github.com/pkgstore/flarum-l10n-russian-core",
+    "issues": "https://github.com/pkgstore/flarum-l10n-russian-core/issues",
+    "docs": "https://github.com/pkgstore/flarum-l10n-russian-core/wiki",
+    "forum": "https://github.com/pkgstore/flarum-l10n-russian-core/discussions"
   },
   "require": {
     "flarum/core": "^1.4"
   },
   "suggest": {
     "flarum/flarum": "Flarum",
-    "zmarket/flarum-l10n-russian-extra": "Flarum extra russian language pack (UNOFFICIAL)."
+    "pkgstore/flarum-l10n-russian-extra": "Flarum extra russian language pack (UNOFFICIAL)."
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
@@ -49,8 +48,8 @@
       "title": "Русский",
       "category": "language",
       "info": {
-        "website": "https://z17.dev/",
-        "support": "https://github.com/zbox/flarum-l10n-russian-core/discussions"
+        "website": "https://v77.dev/",
+        "support": "https://github.com/pkgstore/flarum-l10n-russian-core/discussions"
       },
       "icon": {
         "image": "icon.svg",
@@ -64,7 +63,7 @@
       "title": "Русский"
     },
     "extiverse": {
-      "discuss": "https://github.com/zbox/flarum-l10n-russian-core/discussions"
+      "discuss": "https://github.com/pkgstore/flarum-l10n-russian-core/discussions"
     }
   }
 }

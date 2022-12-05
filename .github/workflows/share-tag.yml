@@ -7,7 +7,6 @@ on:
 
 jobs:
   share:
-    if: ${{ github.repository_owner == 'zbox' }}
     runs-on: ubuntu-latest
     name: "Share"
     steps:
@@ -19,4 +18,4 @@ jobs:
           gh_token: "${{ secrets.BOT_GITHUB_TOKEN }}"
           vk_token: "${{ secrets.APP_VK_TOKEN }}"
           vk_owner: "-202249198"
-          vk_cr: "https://z17.dev/"
+          vk_cr: "https://v77.dev/"
