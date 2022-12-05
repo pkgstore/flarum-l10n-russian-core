@@ -9,4 +9,4 @@
 
 return [
   new Flarum\Extend\LanguagePack(),
-]
+];

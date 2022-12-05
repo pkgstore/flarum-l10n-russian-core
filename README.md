@@ -10,12 +10,12 @@
 
 **Flarum** использует [**Composer**](https://getcomposer.org/) для управления зависимостями и расширениями.
 
-Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/zmarket/flarum-l10n-russian-core) и может быть установлен при помощи **Composer**.
+Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/pkgstore/flarum-l10n-russian-core) и может быть установлен при помощи **Composer**.
 
 Убедитесь, что **Composer** установлен на вашем компьютере, и введите следующую команду в терминале, находясь в корневой директории **Flarum**:
 
 ```sh
-composer require zmarket/flarum-l10n-russian-core
+composer require pkgstore/flarum-l10n-russian-core
 ```
 
 Так же, данная команда может быть использована для обновления языкового пакета, без обновления сторонних компонентов.
@@ -27,7 +27,7 @@ composer require zmarket/flarum-l10n-russian-core
 Для обновления локализации необходимо выполнить следующие команды:
 
 ```sh
-composer update zmarket/flarum-l10n-russian-core
+composer update pkgstore/flarum-l10n-russian-core
 php flarum cache:clear
 ```
 
@@ -36,7 +36,7 @@ php flarum cache:clear
 Для удаления локализации необходимо выполнить следующие команды:
 
 ```sh
-composer remove zmarket/flarum-l10n-russian-core
+composer remove pkgstore/flarum-l10n-russian-core
 php flarum cache:clear
 ```
 
