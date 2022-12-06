@@ -47,7 +47,7 @@ php flarum cache:clear
 Я развиваю две локализации Flarum:
 
 1. [официальная](https://github.com/flarum-lang/russian);
-2. [неофициальная](https://github.com/zbox/flarum-l10n-russian-core).
+2. [неофициальная](https://github.com/pkgstore/flarum-l10n-russian-core).
 
 Неофициальная локализация отличается лишь тем, что используется только на моих проектах. Все изменения в неофициальной версии переносятся в официальную.
 
