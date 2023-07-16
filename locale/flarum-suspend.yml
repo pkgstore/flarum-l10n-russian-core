@@ -1,0 +1,71 @@
+flarum-suspend:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Permissions page of the admin interface.
+    permissions:
+      suspend_users_label: "Блокировать пользователей"
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+    # These translations are used in the suspension notifications
+    notifications:
+      user_suspended_text: "Выш аккаунт заблокирован на {timeReadable}"
+      user_suspended_indefinite_text: "Ваш аккаунт заблокирован на неопределённый срок"
+      user_unsuspended_text: "Ваш аккаунт разблокирован"
+
+    # These translations are used for the suspension reason informational modal to the suspended user.
+    suspension_info:
+      dismiss_button: "Закрыть"
+      indefinite: "Блокировка на неопределённый срок"
+      limited: "Блокировка истекает {date}"
+      title: "Аккаунт заблокирован"
+
+    # These translations are used in the Suspend User modal dialog (admin function).
+    suspend_user:
+      display_message: "Показать сообщение пользователю"
+      indefinitely_label: "Заблокирован навсегда"
+      limited_time_days_text: " дней"
+      limited_time_label: "Заблокирован на период..."
+      not_suspended_label: "Не заблокирован"
+      placeholder_optional: "Опционально"
+      reason: "Причина блокировки"
+      status_heading: "Статус блокировки"
+      submit_button: => core.ref.save_changes
+      title: "Блокировка {username}"
+
+    # These translations are displayed as tooltips for user badges.
+    user_badge:
+      suspended_tooltip: "Заблокирован"
+
+    # These translations are found on the user profile page (admin function).
+    user_controls:
+      suspend_button: "Блокировать"
+
+  # Translations in this namespace are used by suspension email notifications
+  email:
+    no_reason_given: "Причина блокировки не указана."
+    suspended:
+      subject: "Ваш аккаунт заблокирован"
+      body: |
+        Здравствуйте, {recipient_display_name}!
+
+        Ваш аккаунт заблокирован по причине:
+
+        ---
+        {suspension_message}
+        ---
+
+    unsuspended:
+      subject: "Ваш аккаунт разблокирован"
+      body: |
+        Здравствуйте, {recipient_display_name}!
+
+        Ваш аккаунт разблокирован. Вы можете вернуться на форум, нажав на ссылку:
+
+        {forum_url}

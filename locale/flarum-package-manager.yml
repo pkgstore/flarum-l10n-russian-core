@@ -1,0 +1,94 @@
+flarum-package-manager:
+  admin:
+    exceptions:
+      composer_command_failure: 'Ошибка при выполнении. Проверьте журналы Composer в "storage/logs/composer".'
+      extension_already_installed: "Расширение уже установлено."
+      extension_not_installed: "Расширение не найдено."
+
+      guessed_cause:
+        extension_incompatible_with_instance: "Расширение не совместимо с Вашей версией Flarum."
+        extensions_incompatible_with_new_major: >
+          Некоторые установленные расширения несовместимы с новой версией Flarum.
+          Подождите, пока авторы расширений выпустят обновления под новую версию Flarum, или удалите устаревшие расширения.
+
+    extensions:
+      check_why_it_failed_updating: "Показать, почему нет обновления до новой версии."
+      install: "Установить"
+      install_help: "Введите имя пакета расширения для продолжения. Посетите {extiverse}, чтобы посмотреть каталог расширений."
+      proceed: "Продолжить"
+      successful_install: "{extension} установлено, переадресация..."
+      successful_remove: "Расширение удалено."
+      successful_update: "{extension} обновлено, переадресация..."
+      update: "Обновить"
+
+    file_permissions: >
+      Менеджеру пакетов требуются права на чтение и запись для следующих каталогов и файлов: "composer.json", "composer.lock", "vendor", "storage", "storage/.composer".
+
+    major_updater:
+      description: "Основные версии Flarum не имеют обратной совместимости. Это означает, что некоторые установленные расширения и вручную внесённые изменения могут не работать с новой версией Flarum."
+      dry_run: "Пробный запуск"
+      dry_run_help: "Пробный запуск эмулирует шаги для проверки успешности обновления текущей установки Flarum. Это не означает, что вручную внесённые изменения будут совместимы с новой версией Flarum."
+      failure:
+        desc: "Проверка обновления завершилась с ошибкой. Некоторые расширения несовместимы с новой версией Flarum."
+        why: "Описание ошибки"
+
+      title: "Доступна версия Flarum: {version}"
+      update: "Обновить"
+
+    minor_update_confirmation:
+      content: "Это действие также обновит любые другие расширения / пакеты с доступными обновлениями."
+
+    sections:
+      control:
+        title: "Менеджер"
+      queue:
+        columns:
+          details: "Подробности"
+          elapsed_time: "Завершено в"
+          peak_memory_used: "Максимальный объем используемой памяти"
+          operation: "Операция"
+          package: "Пакет"
+          status: "Статус"
+        none: "Задачи отсутствуют."
+        operations:
+          extension_install: "Установить расширение"
+          extension_remove: "Удалить расширение"
+          extension_update: "Обновить расширение"
+          update_check: "Проверить обновления"
+          update_global: "Обновить все пакеты"
+          update_major: "Обновление основной версии"
+          update_minor: "Обновление дополнительной версии"
+          why_not: "Проверить, почему пакет не может быть обновлён"
+        output_modal:
+          command: "Команда Composer"
+          output: "Вывод"
+        refresh: "Обновить список задач"
+        statuses:
+          success: "Успешно"
+          failure: "Ошибка"
+          pending: "Ожидание"
+          running: "Выполняется"
+        task_just_started: "Задача только запустилась"
+        title: "Очередь"
+
+    settings:
+      access_warning: "Пожалуйста, будьте осторожны с тем, кому Вы предоставляете доступ к области управления. Менеджер пакетов может быть использован злоумышленниками для установки вредоносных пакетов, что может привести к нарушениям безопасности."
+      queue_jobs: "Запуск операций в фоне"
+      queue_jobs_help: >
+        Ознакомиться с базовой реализацией очереди можно <a href='{basic_impl_link}'>здесь</a>, или с более продвинутой <a href='{adv_impl_link}'>здесь</a>.
+        Убедитесь, что используется версия PHP {php_version}. Убедитесь, что <a href='{folder_perms_link}'>права доступа</a> настроены правильно.
+
+    updater:
+      up_to_date: "У Вас актуальные версии пакетов!"
+      check_for_updates: "Проверить обновления"
+      flarum: "Ядро Flarum"
+      global_update_successful: "Все пакеты успешно обновлены."
+      last_update_checked_at: "Последняя проверка: "
+      run_global_update: "Запустить глобальное обновление"
+      updater_title: "Обновления"
+      updater_help: "Запуск проверки наличия новых расширений и обновлений Flarum."
+
+    update_successful: "Flarum успешно обновлён."
+
+    why_not_modal:
+      title: "Почему не обновляется?"

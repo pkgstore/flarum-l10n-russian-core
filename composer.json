@@ -1,0 +1,69 @@
+{
+  "name": "pkgstore/flarum-l10n-russian",
+  "description": "Russian language pack for Flarum (UNOFFICIAL).",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "homepage": "https://ihub.to/",
+  "keywords": [
+    "flarum",
+    "extension",
+    "russian",
+    "language",
+    "locale",
+    "ru-locale",
+    "localization",
+    "translation"
+  ],
+  "authors": [
+    {
+      "name": "iHub TO",
+      "email": "mail@ihub.to",
+      "homepage": "https://ihub.to/",
+      "role": "Translator"
+    },
+    {
+      "name": "Kitsune Solar",
+      "email": "mail@kitsune.solar",
+      "homepage": "https://kitsune.solar/",
+      "role": "Translator"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/pkgstore/flarum-l10n-russian",
+    "issues": "https://github.com/pkgstore/flarum-l10n-russian/issues",
+    "docs": "https://github.com/pkgstore/flarum-l10n-russian/wiki",
+    "forum": "https://github.com/pkgstore/flarum-l10n-russian/discussions"
+  },
+  "require": {
+    "flarum/core": "^1.4"
+  },
+  "suggest": {
+    "flarum/flarum": "Flarum",
+    "pkgstore/flarum-l10n-russian-extra": "Flarum extra russian language pack (UNOFFICIAL)."
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "flarum-extension": {
+      "title": "Русский",
+      "category": "language",
+      "info": {
+        "website": "https://ihub.to/",
+        "support": "https://github.com/pkgstore/flarum-l10n-russian/discussions"
+      },
+      "icon": {
+        "image": "icon.svg",
+        "backgroundColor": "#fff",
+        "backgroundSize": "cover",
+        "backgroundPosition": "center"
+      }
+    },
+    "flarum-locale": {
+      "code": "ru",
+      "title": "Русский"
+    },
+    "extiverse": {
+      "discuss": "https://github.com/pkgstore/flarum-l10n-russian/discussions"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+flarum-akismet:
+
+  ##
+  # UNIQUE KEYS - The following keys are used in only one location each.
+  ##
+
+  # Translations in this namespace are used by the admin interface.
+  admin:
+
+    # These translations are used in the Akismet Settings.
+    akismet_settings:
+      api_key_label: "Ключ API"
+      title: "Настройки Akismet"
+      delete_blatant_spam_label: "Автоматически удалять явный спам"
+      delete_blatant_spam_help: "Если Akismet определит сообщение как явный спам, он автоматически удалит это сообщение."
+    permissions:
+      bypass_akismet: "Игнорировать Akismet"
+
+  # Translations in this namespace are used by the forum user interface.
+  forum:
+
+    # These translations are used by the frame displayed around flagged posts.
+    post:
+      akismet_flagged_text: "[Akismet] Обнаружен спам"
+      not_spam_button: "Не спам"
