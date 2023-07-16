@@ -1,6 +1,6 @@
 # Flarum Russian Language Pack (UNOFFICIAL)
 
-![Flarum Russian Language Pack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag-map_of_Russia.svg)
+![Flarum Russian Language Pack](https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Flag-map_of_Russia.svg/2560px-Flag-map_of_Russia.svg.png)
 
 Пакет русской локализации движка [**Flarum**](https://flarum.org/) - программного обеспечения нового поколения для создания сообществ. Реализована поддержка единичных и множественных чисел (переменных).
 
