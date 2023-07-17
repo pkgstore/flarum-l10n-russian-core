@@ -5,7 +5,7 @@ on:
 
 env:
   OWNER: '${{ github.repository_owner }}'
-  USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'
+  USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0'
 
 jobs:
 
@@ -162,12 +162,12 @@ jobs:
           dst_token: '${{ secrets.BOT_MIRROR_TOKEN_GITORGRU }}'
 
   # ------------------------------------------------------------------------------------------------------------------ #
-  # Disroot Forgejo.
+  # Disroot.
   # ------------------------------------------------------------------------------------------------------------------ #
 
   mirror_disroot:
     runs-on: ubuntu-latest
-    name: 'Disroot Forgejo'
+    name: 'Disroot'
     env:
       DOMAIN: 'https://git.disroot.org'
       VERSION: 'v1'
