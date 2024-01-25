@@ -3,7 +3,7 @@
   "description": "Russian language pack for Flarum (UNOFFICIAL).",
   "type": "flarum-extension",
   "license": "MIT",
-  "homepage": "https://ihub.to/",
+  "homepage": "https://flarus.cc/",
   "keywords": [
     "flarum",
     "extension",
@@ -16,16 +16,10 @@
   ],
   "authors": [
     {
-      "name": "iHub TO",
-      "email": "mail@ihub.to",
-      "homepage": "https://ihub.to/",
-      "role": "Developer"
-    },
-    {
-      "name": "Kitsune Solar",
-      "email": "mail@kitsune.solar",
-      "homepage": "https://kitsune.solar/",
-      "role": "Developer"
+      "name": "Kai Kimera",
+      "email": "mail@kai.kim",
+      "homepage": "https://kai.kim/",
+      "role": "Translator"
     }
   ],
   "support": {
@@ -48,7 +42,7 @@
       "title": "Русский",
       "category": "language",
       "info": {
-        "website": "https://ihub.to/",
+        "website": "https://flarus.cc/",
         "support": "https://github.com/pkgstore/flarum-l10n-russian/discussions"
       },
       "icon": {
